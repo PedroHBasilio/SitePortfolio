@@ -1,4 +1,9 @@
-body{}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #010100;
+    align-items: center;
+}
 
 .home{
     background-image: url(./img/light.jpg.jpg) ;
@@ -8,6 +13,8 @@ body{}
     background-size: 100%;
     color: white;
     height: 100vh;
+    width: 100%;
+    max-width: 600px;
 
     display: flex;
     flex-direction: column;
@@ -57,7 +64,7 @@ body{}
             }
             .impression__text p{
                 text-align: center;
-                font-size: 0.6em;
+                font-size: 0.7em;
                 font-weight: 200;
             }
 
@@ -69,14 +76,17 @@ body{}
         margin-left: 10px;
         margin-bottom: 20px;
         font-size: 0.8em;
+        align-items: center;
     }
         #dash{
             filter: invert(1);
+            margin-right: 10px;
         }
 
 .about{
     height: 100vh;
     background-color: rgb(1 1 0);
+    max-width: 600px;
 
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -137,5 +147,66 @@ body{}
                 }
 
                     .about__data ul li{}
+
+.tech__box{
+    background: #080808;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.tech{
+    
+    height: 100vh;
+    width: 100%;
+    max-width: 600px;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+    .tech__header{
+        margin: 30px;
+    }
+        .tech__header h4{
+            color: firebrick;
+        }
+        .tech__header h2{
+            font-size: 2em;
+        }
+
+    .tech__list{
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5em;
+
+    }
+
+        .tech__list img{
+            
+        }
+        .tech__know{
+            text-align: center;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 50px;
+            margin-top: 40px;
+            font-size: 0.6em;
+        }
+        .tech__learning{
+            text-align: center;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 50px;
+            margin-top: 40px;
+            font-size: 0.6em;
+        }
+
+        #learn{
+            align-self: flex-start;
+        }
 
         
