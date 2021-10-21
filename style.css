@@ -1,0 +1,141 @@
+body{}
+
+.home{
+    background-image: url(./img/light.jpg.jpg) ;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+
+    background-size: 100%;
+    color: white;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+    .nav_site{
+        display: flex;
+        width: 100%;
+        background-color: rgb(21 21 21 / 50%);
+        font-weight: 200;
+    }
+
+        .nav_site__list{
+            display: flex;
+            padding: 10px;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+
+        .nav_site__home{
+            color: firebrick;
+        }
+
+        .nav_site__about{}
+
+        .nav_site__projects{}
+
+        .nav_site__contact{}
+
+    .impression{}
+
+        .impression__portrait{
+            display: none;
+        }
+        
+        .impression__text{
+            color: white;
+        }
+            .impression__text h1{
+                text-align: center;
+                font-size: 2.9em;
+                color: firebrick;
+            }
+            .impression__text p{
+                text-align: center;
+                font-size: 0.6em;
+                font-weight: 200;
+            }
+
+
+    .home__down{
+        align-self: flex-start;
+        font-weight: 100;
+        display: flex;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        font-size: 0.8em;
+    }
+        #dash{
+            filter: invert(1);
+        }
+
+.about{
+    height: 100vh;
+    background-color: rgb(1 1 0);
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    align-items: center;
+}
+    .about__portrait{
+        display: none;
+    }
+
+        .about__portrait__img{}
+
+    .about__about{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+
+        .about__header{
+            margin-bottom: 20px;
+        }
+
+            .about__header h4{
+                color: firebrick;
+            }
+
+            .about__header h2{
+                font-size: 2em;
+            }
+
+        .about__content{
+            text-align: justify;
+            line-height: 1.5em;
+            font-size: 0.8em;
+        }
+
+            .about__history{}
+
+                .about__history p{
+                    font-weight: 200;
+                }
+
+                .about__history p span{
+                    color: firebrick;
+                }
+
+            .about__data{
+                margin-top: 50px;
+                border: solid firebrick 1px;
+                border-radius: 5px;
+                padding: 10px;
+            }
+
+                .about__data ul{
+                    column-count: 2;
+                    font-size: 0.7em;
+                }
+
+                    .about__data ul li{}
+
+        
