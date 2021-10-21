@@ -175,7 +175,7 @@ body{
         }
 
     .tech__list{
-        margin-left: 30px;
+        margin: 0 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -207,6 +207,46 @@ body{
 
         #learn{
             align-self: flex-start;
+        }
+
+.projects{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+    .projects__header{
+        color: white;
+    }
+
+        .projects__header h4{
+            color: firebrick;
+        }
+        .projects__header h2{
+            font-size: 2em;
+        }
+
+    .projects__all{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+        .project__box{
+            width: 200px;
+            height: 100px;
+            border: solid firebrick 1px;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 20px 0;
+        }
+
+        .project__box a{
+            text-decoration: none;
+            color: white;
+            font-family: 'Poppins', sans-serif;
         }
 
         
