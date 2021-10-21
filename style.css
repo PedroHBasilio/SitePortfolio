@@ -10,6 +10,7 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     background-position: center;
     background-size: 100%;
+    background-repeat: no-repeat;
 
 
     width: 100%;
@@ -162,7 +163,6 @@ body{
             }
 
                 .about__data ul{
-                    column-count: 2;
                     font-size: 0.7em;
                 }
 
@@ -287,6 +287,13 @@ body{
         .project__box a:hover{
             color: firebrick;
         }
+
+@media (min-width: 425px){
+    .about__data ul {
+        column-count: 2;
+        font-size: 0.8em;
+    }
+}
 
 @media (min-width: 768px){
     .home__box{
