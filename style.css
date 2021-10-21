@@ -277,6 +277,10 @@ body{
             font-family: 'Poppins', sans-serif;
         }
 
+        .project__box a:hover{
+            color: firebrick;
+        }
+
 @media (min-width: 768px){
     .home__box{
         background-image: url(./img/light.jpg.jpg) ;
